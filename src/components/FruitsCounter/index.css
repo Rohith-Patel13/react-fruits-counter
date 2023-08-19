@@ -1,0 +1,61 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+.bg {
+  background-color: #ffd569;
+  min-height: 100vh;
+  border: 1px solid gray;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgCard {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.img {
+  height: 180px;
+  width: 180px;
+}
+.btnClick {
+  background-color: #0b69ff;
+  border-color: transparent;
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: white;
+  margin: 4px;
+  cursor: pointer;
+}
+.innerCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.fruitCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.num {
+  color: #ffd569;
+}
+
+@media (max-width: 767px) {
+  .innerCard {
+    flex-direction: column;
+  }
+}
